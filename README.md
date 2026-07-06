@@ -8,7 +8,7 @@
 
 The dataset download link will be updated before release:
 
-[Download 1000MDE Dataset](https://example.com/1000MDE-download-placeholder)
+[Download 1000MDE Dataset](https://pan.baidu.com/s/1MVxOWhjbMmV_AOUVKEKjCQ?pwd=deet)
 
 ## Data Structure
 
