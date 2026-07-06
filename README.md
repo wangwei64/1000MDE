@@ -69,6 +69,29 @@ depth = np.load(sequence / "depth" / "img0000.npy")
 print(rgb.shape, depth.shape)
 ```
 
+## License
+
+The 1000MDE dataset is released for non-commercial research use under the [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+Part of the dataset is generated from KITTI-360. Users must also follow the [KITTI-360 license terms](https://www.cvlibs.net/datasets/kitti-360/) and cite KITTI-360 when using the corresponding data.
+
+Code in this repository will be released under the MIT License unless otherwise noted.
+
+## Acknowledgements
+
+1000MDE includes rendering-and-stereo hybrid annotations, with part of the data derived from KITTI-360. We thank the KITTI-360 authors for releasing the dataset and benchmark resources.
+
 ## Citation
 
 The citation will be added after the paper metadata is finalized.
+
+If you use the KITTI-360-derived part of 1000MDE, please also cite KITTI-360:
+
+```bibtex
+@article{Liao2022PAMI,
+  title={{KITTI}-360: A Novel Dataset and Benchmarks for Urban Scene Understanding in 2D and 3D},
+  author={Liao, Yiyi and Xie, Jun and Geiger, Andreas},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2022}
+}
+```
