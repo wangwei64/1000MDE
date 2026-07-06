@@ -51,6 +51,36 @@ Each sequence folder contains:
 - `rgb/`: RGB frames stored as PNG images.
 - `depth/`: dense depth maps stored as NumPy arrays.
 
+### Test Split
+
+The benchmark test split is fixed as follows.
+
+Stereo test sequences:
+
+```text
+01
+09
+13
+16
+20
+```
+
+Rendering test sequences:
+
+```text
+01
+04
+10
+16
+22
+28
+34
+40
+45
+```
+
+The stereo split is selected from the renumbered `01`-`20` stereo sequences. The rendering split covers 20% of the 45 rendering sequences, spread approximately uniformly over the sequence index, with `01` and `04` included by request.
+
 ## Usage
 
 Load RGB frames and depth maps by matching frame indices:
